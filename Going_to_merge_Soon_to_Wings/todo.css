@@ -1,0 +1,29 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 20px #bdc3c7 solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #bdc3c7;
+}
+
+.p11 {
+    border-left: 5px #bdc3c7 solid;
+    padding-left: 5px;
+}
+
+.p00 {
+    color: #3498db;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #2c3e50;
+}

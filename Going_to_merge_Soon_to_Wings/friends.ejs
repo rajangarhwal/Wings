@@ -1,0 +1,11 @@
+<% for(var i =0; i<friends.length; i++) {%>
+    <li>
+        <%= friends[i].name %> --- <strong> <%= friends[i].breed %> </strong>
+    </li>
+    <% } %>
+
+        <form action="/add" method="POST">
+            <input type="text" name="newname" placeholder="Name">
+            <input type="text" name="breed" placeholder="breed">
+            <button> Do Welcome my new friend!!! </button>
+        </form>

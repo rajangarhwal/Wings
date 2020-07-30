@@ -1,0 +1,18 @@
+body {
+    background: url("/images/img_2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.login {
+    background-color: #333333;
+    margin: 150px 25% 0 25%;
+    padding: 20px 20px 20px 20px;
+    color: white;
+}
+
+.head {
+    text-align: center;
+}
