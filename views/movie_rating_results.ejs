@@ -1,0 +1,13 @@
+<h1> Welcome to our Movie rating page page!!!</h1>
+
+<form action="/movie_rating/results/" method="POST">
+    <input type="text" name="mvname" placeholder="name">
+    <input type="submit">
+</form>
+
+<h1> results</h1>
+
+<% for(var i =0; i < Object.keys( mvd["Search"][0] ).length; i++) { %>
+    <%= mvd["Search"][i]["Title"] %>
+        <h1></h1>
+        <% } %>
